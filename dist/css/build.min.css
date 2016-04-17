@@ -44,5 +44,5 @@ body{margin:0;color:#222;font:400 125%/1.4 "Open Sans","Helvetica Neue Light","H
 .hide-text{overflow:hidden;padding:0;text-indent:101%;white-space:nowrap}
 .visually-hidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
 .hero{height:100vh!important}
-.hero h3{font-size:42px;font-weight:300}
+.hero h3{font-size:41px;font-weight:300}
 .flex-box{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:center;align-content:center;height:100%}
