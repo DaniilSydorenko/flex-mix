@@ -74,22 +74,7 @@ gulp.task('watch', function() {
     gulp.watch('./dist/css/*.css', ['cleanCss', 'makeCss']);
 
     // Scripts
-    //Working
-    //gulp.watch('./assets/js/*.js', ['cleanJs', 'concatScripts'], function () {
-    //    gulp.watch('./dist/js/*.js', ['minifyScripts']);
-    //});
-
     gulp.watch('./assets/js/*.js', ['cleanJs', 'concatScripts']);
     gulp.watch('./dist/js/build.js', ['minifyScripts']);
 
-    // If an image is modified, run our images task to compress images
-    //gulp.watch('./src/images/**/*', ['images']);
-    //
-    //// Create a LiveReload server
-    //var server = liveReload();
-
-    // Watch any file for a change in the 'src' folder and reload as required
-    //gulp.watch(['./src/**']).on('change', function(file) {
-    //    server.changed(file.path);
-    //})
 });
