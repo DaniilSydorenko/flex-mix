@@ -1,0 +1,28 @@
+{
+  "name": "flex-mix",
+  "version": "0.0.1",
+  "authors": [
+    "Daniil Sydorenko <daniildeveloper@gmail.com>"
+  ],
+  "description": "Boilerplate for front-end development",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "web",
+    "front-end",
+    "boilerplate",
+    "frontend-boilerplate",
+    "html",
+    "css",
+    "sass"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
