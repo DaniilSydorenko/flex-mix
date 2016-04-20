@@ -24,5 +24,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "flexboxgrid": "^6.3.0",
+    "wow": "wowjs#^1.1.2"
+  }
 }
