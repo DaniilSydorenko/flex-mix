@@ -9,19 +9,19 @@ It is a boilerplate for frontend development based on flex-grid(http://flexboxgr
 git clone git@github.com:DaniilSydorenko/flex-mix.git
 ```
 
-# Bower 
+## Bower 
 
 ```
 bower install
 ```
 
-or
+### or
 
 ```
 sudo bower install --allow-root
 ```
 
-# NPM
+## NPM
 ```
 sudo npm install
 ```
