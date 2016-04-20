@@ -4,9 +4,26 @@ It is a boilerplate for frontend development based on flex-grid(http://flexboxgr
 
 
 
-## Installing Flex-Mix
+## Installation
 ```
 git clone git@github.com:DaniilSydorenko/flex-mix.git
+```
+
+# Bower 
+
+```
+bower install
+```
+
+or
+
+```
+sudo bower install --allow-root
+```
+
+# NPM
+```
+sudo npm install
 ```
 
 ## Application structure
