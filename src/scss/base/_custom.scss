@@ -6,10 +6,16 @@
   height: 100vh !important;
 
   h3 {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 300;
-  }
+    transition: .3s ease-in-out;
+    cursor: pointer;
 
+    &:hover {
+      transition: .3s ease-in-out;
+      transform:scale(1.5);
+    }
+  }
 }
 
 .flex-box {

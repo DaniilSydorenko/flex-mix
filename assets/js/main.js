@@ -1,1 +1,9 @@
-var daniil = 441;
+/**
+ * Initial Function
+ */
+
+(function () {
+    'use strict';
+
+    console.log("HELLO, FLEX!");
+})();
