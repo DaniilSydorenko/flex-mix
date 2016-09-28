@@ -1,9 +1,13 @@
+Flex-Mix
+========
+
 ## Introduction
 Welcome to Flex-Mix. 
-It is a boilerplate for frontend development based on flex-grid(http://flexboxgrid.com/) and sass boilerplate(https://github.com/HugoGiraudel/sass-boilerplate).
+Boilerplate based on Flex-Grid(http://flexboxgrid.com/) and SASS-structure boilerplate(https://github.com/HugoGiraudel/sass-boilerplate). 
+This is my own solution for faster frontend development.
 
-[![MIT Licensed][5]](#license)
-[5]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[![MIT Licensed][1]](#license)
+[1]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
 
 ## Installation
 ```
