@@ -1,13 +1,30 @@
 Flex-Mix
 ========
 
+[![MIT Licensed][1]](#license)
+[1]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+ - [Bower](#bower)
+ - [NPM](#npm)
+- [Application structure](#application-structure)
+- [Run](#run)
+- [Gulp tasks](#gulp-tasks)
+ - [update](#update)
+ - [clean](#clean)
+ - [clean-js](#clean-js)
+ - [clean-css](#clean-css)
+ - [concat-minify-js](#concat-minify-js)
+ - [concat-minify-css](#concat-minify-css)
+ - [watch](#watch)
+ - [default](#default)
+- [License](#license)
+
 ## Introduction
 Welcome to Flex-Mix. 
 Boilerplate based on Flex-Grid(http://flexboxgrid.com/) and SASS-structure boilerplate(https://github.com/HugoGiraudel/sass-boilerplate). 
 This is my own solution for faster frontend development.
-
-[![MIT Licensed][1]](#license)
-[1]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
 
 ## Installation
 ```
@@ -60,19 +77,53 @@ flex-mix/                           =>      Base catalog
     README.md                       =>      Readme file
 ```
 
-## Configuration
+## Run
 
 ```
-
+After instalation, open index.html file.
 ```
 
 ## Gulp tasks
+
+#### update
+```
+Looking for outdated packages
+```
 
 #### clean
 ```
 Remove all files from dist folder before building
 ```
 
+#### clean-js
+```
+Remove all .js files from dist folder before building
+```
+
+#### clean-css
+```
+Remove all .css files from dist folder before building
+```
+
+#### concat-minify-js
+```
+Concatenate and minify all .js files
+```
+
+#### concat-minify-css
+```
+Concatenate and minify all .css files
+```
+
+#### watch
+```
+Watching for changes and rebuilding scripts and styles
+```
+
+#### default
+```
+Default task. Clean dist folder, run build and watcher
+```
 
 License
 -------
