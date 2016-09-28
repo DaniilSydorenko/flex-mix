@@ -11,63 +11,68 @@ This is my own solution for faster frontend development.
 
 ## Installation
 ```
-git clone git@github.com:DaniilSydorenko/flex-mix.git
+git clone https://github.com/DaniilSydorenko/flex-mix.git
 ```
 
-## Bower 
+### Bower 
 
 ```
-bower install
+bower install or bower install --allow-root
 ```
 
-### or
+### NPM
 
 ```
-sudo bower install --allow-root
-```
-
-## NPM
-```
-sudo npm install
+npm install --save-dev
 ```
 
 ## Application structure
-It is application structure from scratch. This set of folders and files You will get from GitHub repository.
+
 ```
 flex-mix/                           =>      Base catalog              
-    assets/
-        img
-        js/
-            main.js
-        libs/
-            jquery-2.2.3.js
-            modernizr-custom.js
-    dist/
-        css/
-        js/
-    src/
-        scss/
-            abstracts/
-            base/
-            components/
-            layout/
-            pages/
-            themes/
-            vendor/
-            main.scss
-    .gitignore
-    bower.json
-    CHANGELOG.md
-    gulpfile.js
-    index.html
-    LICENSE.md
-    package.json
-    README.md
+    assets/                         =>      Libraries, custom scripts and styles, media
+        img/                        =>      Images
+        js/                         =>      Scripts
+            main.js                 =>      Initial file for custom scripts    
+        libs/                       =>      Scripts libraries
+            jquery-2.2.3.js         =>      JQuery
+            modernizr-custom.js     =>      Modernizr
+    dist/                           =>      Production build
+        css/                        =>      Concatenated and minified styles
+        js/                         =>      Concatenated and minified scripts
+    src/                            =>      Application files
+        scss/                       =>      SASS structure
+            abstracts/              =>      Reusable code(mixins, variables)
+            base/                   =>      Based styles(typography, helper classes)
+            components/             =>      Application view components(buttons, breadcrumbs, etc.) 
+            layout/                 =>      Reusable part of view(header, footer)
+            pages/                  =>      Pages style rules
+            themes/                 =>      Themes style rules
+            vendor/                 =>      Outer libs
+            main.scss               =>      Main file include all sass files(by @import)
+    .gitignore                      =>      Gitignore file
+    bower.json                      =>      Manifest file for Bower
+    CHANGELOG.md                    =>      Log of application versions changes
+    gulpfile.js                     =>      Gulp file
+    index.html                      =>      Index file
+    LICENSE.md                      =>      MIT license
+    package.json                    =>      Manifest file for NPM
+    README.md                       =>      Readme file
 ```
 
 ## Configuration
 
-## Gulp commands
+```
+
+```
+
+## Gulp tasks
+
+#### clean
+```
+Remove all files from dist folder before building
+```
+
 
 License
 -------
