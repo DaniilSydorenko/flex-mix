@@ -1,6 +1,6 @@
 {
   "name": "flex-mix",
-  "version": "1.0",
+  "version": "0.0.1",
   "description": "Boilerplate for front-end development",
   "main": "index.html",
   "scripts": {
@@ -16,6 +16,10 @@
     "sass"
   ],
   "author": "Daniil Sydorenko <daniildeveloper@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaniilSydorenko/flex-mix.git"
+  }
   "license": "MIT",
   "devDependencies": {
     "gulp": "gulpjs/gulp#4.0",
