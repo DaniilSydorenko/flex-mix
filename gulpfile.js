@@ -86,7 +86,7 @@ gulp.task('concat-minify-css', function (done) {
         "bower_components/wow/css/libs/animate.css"
     ]);
 
-    return merge(sassStream, cssStream)
+    var mergedStream = merge(sassStream, cssStream)
         .pipe(concat('build.min.css'))
         .pipe(minify({
             keepBreaks: true
@@ -94,13 +94,19 @@ gulp.task('concat-minify-css', function (done) {
         .pipe(gulp.dest('dist/css'))
         .on('end', function () {
             gutil.log('Styles concatenated and merged!');
-            done();
         });
+
+    done();
+
+    return mergedStream;
 });
 
-gulp.task('watch', function () {
-    gulp.watch('./src/scss/**/*.scss', gulp.series('clean-css', 'concat-minify-css'));
-    gulp.watch('./assets/js/*.js', gulp.series('clean-js', 'concat-minify-js'));
+gulp.task('watch', function (done) {
+    gulp.watch('./src/scss/**/*.scss', gulp.series('concat-minify-css'));
+    gulp.watch('./assets/js/*.js', gulp.series('concat-minify-js'));
+    done();
 });
 
-gulp.task('default', gulp.series('clean', 'concat-minify-js', 'concat-minify-css', 'watch'));
+gulp.task('default', gulp.series('concat-minify-css',
+    gulp.parallel('concat-minify-js', 'watch')
+));
