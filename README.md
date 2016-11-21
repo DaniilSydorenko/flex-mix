@@ -17,15 +17,15 @@ Flex-Mix
  - [clean-css](#clean-css)
  - [concat-minify-js](#concat-minify-js)
  - [concat-minify-css](#concat-minify-css)
- - [concat-minify-css](#concat-minify-html)
+ - [concat-minify-html](#concat-minify-html)
  - [watch](#watch)
  - [default](#default)
 - [License](#license)
 
 ## Introduction
-Welcome to Flex-Mix. 
-Boilerplate based on Flex-Grid(http://flexboxgrid.com/) and SASS-structure boilerplate(https://github.com/HugoGiraudel/sass-boilerplate). 
-This is my own solution for faster frontend development.
+#### Welcome to Flex-Mix. 
+Flex-Mix is Front-end boilerplate based on Flex-Grid(http://flexboxgrid.com/) and SASS-structure boilerplate(https://github.com/HugoGiraudel/sass-boilerplate). 
+This is my own solution for faster frontend development. I am trying to update my code as fast as front-end development growing.
 
 ## Installation
 ```
@@ -58,6 +58,7 @@ flex-mix/                           =>      Base catalog
     dist/                           =>      Production build
         css/                        =>      Concatenated and minified styles
         js/                         =>      Concatenated and minified scripts
+        html/                       =>      Concatenated and minified HTML
     src/                            =>      Application files
         scss/                       =>      SASS structure
             abstracts/              =>      Reusable code(mixins, variables)
@@ -114,6 +115,11 @@ Concatenate and minify all .js files
 #### concat-minify-css
 ```
 Concatenate and minify all .css files
+```
+
+#### concat-minify-html
+```
+Concatenate and minify all .html files (for production only)
 ```
 
 #### watch
