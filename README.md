@@ -17,6 +17,7 @@ Flex-Mix
  - [clean-css](#clean-css)
  - [concat-minify-js](#concat-minify-js)
  - [concat-minify-css](#concat-minify-css)
+ - [concat-minify-css](#concat-minify-html)
  - [watch](#watch)
  - [default](#default)
 - [License](#license)
