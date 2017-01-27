@@ -1,13 +1,10 @@
-# 0.0.1 (2016-04-17)
+# 0.0.1 (2016-01-28)
 
 ### Features
 
-- Gulp Plugins
-- Vendors
-- Css libs
-- JS libs
-- Flex
+- Flex-box grid
+- Normalize.css
+- SASS structure
+- Modernizr
+- Gulp tasks
 
-### Changes
-
-### Bug fixes
