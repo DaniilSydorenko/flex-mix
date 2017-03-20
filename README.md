@@ -1,8 +1,8 @@
 Flex-Mix
 ========
 
-[![MIT Licensed][1]](#license)
-[1]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+](https://opensource.org/licenses/MIT)
 
 - [Introduction](#introduction)
 - [Installation](#installation)

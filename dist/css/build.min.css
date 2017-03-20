@@ -206,6 +206,22 @@ body{margin:0;color:#222;font:400 125%/1.4 "Open Sans","Helvetica Neue Light","H
 .hero h3{font-size:5rem;font-weight:300;cursor:pointer}
 .hero h3:hover{transform:scale(1.5)}
 .flex-box{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:center;align-content:center;height:100%}
+.js-item{background-size:cover}
+.item-1{background:url(../project_images_abstr/img_250x190.jpg) no-repeat;height:190px}
+.item-2{background:url(../project_images_abstr/img_250x235.jpg) no-repeat;height:235px}
+.item-3{background:url(../project_images_abstr/img_250x290.jpg) no-repeat;height:290px}
+.item-4{background:url(../project_images_abstr/img_250x305_2.jpg) no-repeat;height:305px}
+.item-5{background:url(../project_images_abstr/img_250x190_2.jpg) no-repeat;height:190px}
+.item-6{background:url(../project_images_abstr/img_250x360.jpg) no-repeat;height:360px}
+.item-7{background:url(../project_images_abstr/img_250x290_2.jpg) no-repeat;height:290px}
+.item-8{background:url(../project_images_abstr/img_250x250.jpg) no-repeat;height:250px}
+.item-9{background:url(../project_images_abstr/img_250x325_2.jpg) no-repeat;height:325px}
+.item-10{background:url(../project_images_abstr/img_250x235_2.jpg) no-repeat;height:235px}
+.item-11{background:url(../project_images_abstr/img_250x325_3.jpg) no-repeat;height:325px}
+.item-12{background:url(../project_images_abstr/img_250x250_2.jpg) no-repeat;height:250px}
+.item-13{background:url(../project_images_abstr/img_250x305.jpg) no-repeat;height:305px}
+.item-14{background:url(../project_images_abstr/img_250x250_3.jpg) no-repeat;height:250px}
+.item-15{background:url(../project_images_abstr/img_250x325.jpg) no-repeat;height:325px}
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license
