@@ -4,16 +4,18 @@
   "description": "Boilerplate for front-end development",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":" node ./node_modules/gulp/bin/gulp.js default",
+    "build-prod":" node ./node_modules/gulp/bin/gulp.js default --production"
   },
   "keywords": [
     "web",
     "front-end",
     "boilerplate",
-    "frontend-boilerplate",
     "html",
     "css",
-    "sass"
+    "sass",
+    "gulp"
   ],
   "author": "Daniil Sydorenko <daniildeveloper@gmail.com>",
   "repository": {
@@ -22,11 +24,11 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "browser-sync": "^2.18.12",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-clean": "^0.3.2",
-    "gulp-concat": "^2.6.0",
+    "gulp-concat": "2.6.0",
     "gulp-htmlmin": "^3.0.0",
-    "gulp-livereload": "^3.8.1",
     "gulp-minify-css": "^1.2.4",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
@@ -34,7 +36,6 @@
     "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.10",
     "merge-stream": "^1.0.0",
-    "npm-check-updates": "^2.8.0"
-  },
-  "dependencies": {}
+    "yargs": "^8.0.2"
+  }
 }
