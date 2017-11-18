@@ -11,6 +11,7 @@ var gulp = require('gulp'),
     minify = require('gulp-minify-css'),
     merge = require('merge-stream'),
     htmlmin = require('gulp-htmlmin'),
+    imagemin = require('gulp-imagemin'),
     browserSync = require('browser-sync').create(),
     reload = browserSync.reload,
     config = require('./gulp/config');
@@ -88,6 +89,13 @@ gulp.task('concat-minify-html', function (done) {
     done();
 });
 
+gulp.task('compress-images', function (done) {
+    gulp.src(config.components.img)
+        .pipe(imagemin())
+        .pipe(gulp.dest(config.dirs.img));
+    done();
+});
+
 gulp.task('watch', function (done) {
     browserSync.init({
         server:  {
@@ -99,9 +107,10 @@ gulp.task('watch', function (done) {
     gulp.watch('./src/scss/**/*.scss', gulp.series('concat-minify-css'));
     gulp.watch('./assets/js/*.js', gulp.series('concat-minify-js'));
     gulp.watch('*.html', gulp.series('concat-minify-html'));
+    gulp.watch('./assets/img/*', gulp.series('compress-images'));
     done();
 });
 
 gulp.task('default', gulp.series('concat-minify-css',
-    gulp.parallel('concat-minify-js', 'concat-minify-html', 'watch')
+    gulp.parallel('concat-minify-js', 'concat-minify-html', 'compress-images', 'watch')
 ));

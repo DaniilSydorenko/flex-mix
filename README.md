@@ -6,7 +6,6 @@ Flex-Mix
 
 - [Introduction](#introduction)
 - [Installation](#installation)
- - [Bower](#bower)
  - [NPM](#npm)
 - [Application structure](#application-structure)
 - [Run](#run)
@@ -30,12 +29,6 @@ This is my own solution for faster frontend development. I am trying to update m
 ## Installation
 ```
 git clone https://github.com/DaniilSydorenko/flex-mix.git
-```
-
-### Bower 
-
-```
-bower install or bower install --allow-root
 ```
 
 ### NPM

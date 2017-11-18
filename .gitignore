@@ -88,9 +88,6 @@ fabric.properties
 /node_modules
 /npm-debug.log
 
-/bower_components
-/bower
-
 /test/assets/package-*/
 /test/assets/temp-*/
 /test/reports

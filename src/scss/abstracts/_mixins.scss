@@ -31,20 +31,3 @@
     @content;
   }
 }
-
-@mixin flex-box(
-  $justify: center,
-  $items: center,
-  $content: center,
-  $direction: row,
-  $wrap: wrap)
-{
-  display: flex;
-  flex-direction: $direction;
-  flex-wrap: $wrap;
-  justify-content: $justify;
-  align-items: $items;
-  align-content: $content;
-  height: 100%;
-}
-

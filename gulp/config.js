@@ -10,7 +10,8 @@ module.exports = {
         build: '.dist',
         js:    'dist/js',
         css:   'dist/css',
-        html:  'dist/html'
+        html:  'dist/html',
+        img:   'dist/img'
     },
     files:      {
         js:   'dist/js/*.js',
@@ -20,18 +21,17 @@ module.exports = {
     components: {
         sass: 'src/scss/main.scss',
         js:   'assets/js/*.js',
-        html: '*.html'
+        html: '*.html',
+        img:  'assets/img/*'
     },
     vendors:    {
         js:  [
             "assets/libs/jquery-2.2.3.js",
             "assets/libs/modernizr-custom.js",
-            "bower_components/wow/dist/wow.js",
             "assets/js/main.js"
         ],
         css: [
-            "bower_components/flexboxgrid/dist/flexboxgrid.css",
-            "bower_components/wow/css/libs/animate.css"
+            "node_modules/flexboxgrid/dist/flexboxgrid.css"
         ]
     }
 };

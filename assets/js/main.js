@@ -5,5 +5,5 @@
 (function () {
     'use strict';
 
-    console.log("HELLO, FLEX!");
+    console.log("Hello, Flex!");
 })();
